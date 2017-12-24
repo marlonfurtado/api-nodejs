@@ -5,20 +5,11 @@
   "private": true,
   "scripts": {
     "start": "node .",
-    "test": "jest",
-    "test:unit": "npm test \"src/**/!(index).test.js\"",
-    "test:integration": "npm test \"src/**/index.test.js\"",
-    "coverage": "npm test -- --coverage",
-    "postcoverage": "opn coverage/lcov-report/index.html",
     "dev": "nodemon -i \"*.test.js\" .",
     "prod": "cross-env NODE_ENV=production nodemon -i \"*.test.js\" -r dotenv-safe/config .",
     "lint": "eslint src",
     "docs": "apidoc -i src -o docs && apidoc-markdown -p docs -o DOCS.md",
     "postdocs": "opn docs/index.html"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "setupTestFrameworkScriptFile": "<rootDir>/test/setup.js"
   },
   "devDependencies": {
     "apidoc": "^0.17.6",
@@ -33,13 +24,8 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.0.0",
     "eslint-plugin-standard": "^3.0.1",
-    "jest-cli": "^20.0.4",
-    "mockgoose": "^6.0.8",
-    "nock": "^9.0.2",
     "nodemon": "^1.10.2",
-    "opn-cli": "^3.1.0",
-    "sinon": "^4.0.1",
-    "supertest": "^3.0.0"
+    "opn-cli": "^3.1.0"
   },
   "dependencies": {
     "babel-core": "^6.26.0",

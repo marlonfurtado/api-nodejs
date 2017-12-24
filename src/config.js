@@ -35,14 +35,6 @@ const config = {
       }
     }
   },
-  test: {
-    mongo: {
-      uri: 'mongodb://localhost/express-template-test',
-      options: {
-        debug: false
-      }
-    }
-  },
   development: {
     mongo: {
       uri: 'mongodb://localhost/express-template-dev',
