@@ -55,14 +55,22 @@ $ npm run dev
 Express server listening on http://0.0.0.0:9000, in development mode
 ```
 
-Create a user (sign up):
 > Note that creating and authenticating users needs a master key (which is defined in the `.env` file. *Talk with admin!*)
 
+
+ ### I. Sign In:
 ```bash
-curl -X POST http://0.0.0.0:9000/api/users -i -d "email=test@example.com&password=123456&role=admin&access_token=MASTER_KEY_HERE"
+curl -X POST http://0.0.0.0:9000/api/auth -i -u admin@email.com:qwerty -d "access_token=MASTER_KEY_HERE"
 ```
 
-It will return something like:
+
+ ### II. Create a user (sign up):
+
+```bash
+curl -X POST http://0.0.0.0:9000/api/users -i -d "name=test&email=test@example.com&password=qwerty&role=admin&access_token=MASTER_KEY_HERE"
+```
+
+Sign in (I) or sign up (II), it will return something like:
 ```bash
 HTTP/1.1 201 Created
 ...

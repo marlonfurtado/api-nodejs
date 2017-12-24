@@ -64,7 +64,7 @@
 | Name    | Type      | Description                          |
 |---------|-----------|--------------------------------------|
 | access_token			| String			|  <p>Master access_token.</p>							|
-| name			| String			| **optional** <p>User's name.</p>							|
+| name			| String			|  <p>User's name.</p>							|
 | email			| String			|  <p>User's email.</p>							|
 | password			| String			|  <p>User's password.</p>							|
 | description			| String			| **optional** <p>User's description.</p>							|

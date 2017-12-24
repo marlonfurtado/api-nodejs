@@ -54,7 +54,7 @@ router.get('/:id',
  * @apiGroup User
  * @apiPermission master
  * @apiParam {String} access_token Master access_token.
- * @apiParam {String} [name] User's name.
+ * @apiParam {String} name User's name.
  * @apiParam {String} email User's email.
  * @apiParam {String{6..}} password User's password.
  * @apiParam {String} [description] User's description.
