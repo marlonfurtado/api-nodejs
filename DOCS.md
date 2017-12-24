@@ -1,4 +1,4 @@
-# express-template v0.0.1
+# express-template v0.1.0
 
 
 
@@ -64,11 +64,11 @@
 | Name    | Type      | Description                          |
 |---------|-----------|--------------------------------------|
 | access_token			| String			|  <p>Master access_token.</p>							|
+| name			| String			| **optional** <p>User's name.</p>							|
 | email			| String			|  <p>User's email.</p>							|
 | password			| String			|  <p>User's password.</p>							|
-| name			| String			| **optional** <p>User's name.</p>							|
-| picture			| String			| **optional** <p>User's picture.</p>							|
-| role			| String			| **optional** <p>User's picture.</p>							|
+| description			| String			| **optional** <p>User's description.</p>							|
+| role			| String			| **optional** <p>User's role.</p>							|
 
 ## Delete user
 
@@ -152,6 +152,6 @@
 |---------|-----------|--------------------------------------|
 | access_token			| String			|  <p>User access_token.</p>							|
 | name			| String			| **optional** <p>User's name.</p>							|
-| picture			| String			| **optional** <p>User's picture.</p>							|
+| description			| String			| **optional** <p>User's description.</p>							|
 
 
