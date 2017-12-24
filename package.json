@@ -15,7 +15,6 @@
     "apidoc": "^0.17.6",
     "apidoc-markdown": "^0.2.0",
     "babel-eslint": "^8.0.1",
-    "babel-jest": "^20.0.3",
     "cross-env": "^5.0.5",
     "dotenv-safe": "^4.0.3",
     "eslint": "^4.4.1",
