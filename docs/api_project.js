@@ -1,5 +1,5 @@
 define({
-  "name": "express-template",
+  "name": "api-nodejs",
   "version": "0.1.0",
   "description": "",
   "sampleUrl": false,
@@ -7,7 +7,7 @@ define({
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2017-12-28T21:37:35.459Z",
+    "time": "2017-12-28T22:13:50.860Z",
     "url": "http://apidocjs.com",
     "version": "0.17.6"
   }

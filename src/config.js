@@ -37,7 +37,7 @@ const config = {
   },
   development: {
     mongo: {
-      uri: 'mongodb://localhost/express-template-dev',
+      uri: 'mongodb://localhost/api-nodejs-dev',
       options: {
         debug: true
       }
@@ -47,7 +47,7 @@ const config = {
     ip: process.env.IP || undefined,
     port: process.env.PORT || 8080,
     mongo: {
-      uri: process.env.MONGODB_URI || 'mongodb://localhost/express-template'
+      uri: process.env.MONGODB_URI || 'mongodb://localhost/api-nodejs'
     }
   }
 }
